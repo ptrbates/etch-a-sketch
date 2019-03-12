@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+#clear {
+  font-size: 13px;
+  color: rgba(0,0,0,0.2);
+}
+
+#clear:hover {
+  font-size: 16px;
+  color: rgba(0,0,0,0.6);
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,0.2);
+  margin: 10px;
+}
+
+.row-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
